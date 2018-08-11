@@ -65,6 +65,17 @@ class ServerDefaults {
         return request
     }
     
+    func logoutRequest() -> URLRequest {
+        let url = baseURL.appendingPathComponent("logout/")
+        
+        var request = URLRequest(url: url)
+        stetStandartValues(&request)
+        request.setValue("Bearer \(Token.current.token!)", forHTTPHeaderField: "Authorization")
+        request.httpMethod = "POST"
+        
+        return request
+    }
+    
     static var shared = ServerDefaults()
 }
 

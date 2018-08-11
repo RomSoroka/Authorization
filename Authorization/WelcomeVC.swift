@@ -17,6 +17,10 @@ class WelcomeVC: UIViewController {
     }
     
     @IBAction func signOut(sender: UIStoryboardSegue) {
+        URLSession.shared.dataTask(with: ServerDefaults.shared.logoutRequest()) { (data, responce, error) in
+            print((responce as! HTTPURLResponse).statusCode)
+            print(String(data: data!, encoding: .utf8)!)
+        }.resume()
         Token.current.token = nil
     }
 }
