@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		845CA2E8211F107F0022146D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CA2E7211F107F0022146D /* AppDelegate.swift */; };
-		845CA2EA211F107F0022146D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CA2E9211F107F0022146D /* ViewController.swift */; };
 		845CA2ED211F107F0022146D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845CA2EB211F107F0022146D /* Main.storyboard */; };
 		845CA2EF211F108C0022146D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845CA2EE211F108C0022146D /* Assets.xcassets */; };
 		845CA2F2211F108C0022146D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845CA2F0211F108C0022146D /* LaunchScreen.storyboard */; };
+		845CA2FA211F175C0022146D /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CA2F9211F175C0022146D /* LogInViewController.swift */; };
+		845CA2FC211F17670022146D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CA2FB211F17670022146D /* RegisterViewController.swift */; };
+		845CA2FE211F17930022146D /* CharacterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CA2FD211F17930022146D /* CharacterTableViewController.swift */; };
+		845CA300211F1E210022146D /* ServerDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CA2FF211F1E210022146D /* ServerDefaults.swift */; };
+		845CA302211F2BE90022146D /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CA301211F2BE90022146D /* Alert.swift */; };
+		845CA304211F336B0022146D /* SignUPResonce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CA303211F336B0022146D /* SignUPResonce.swift */; };
+		845CA306211F3B2B0022146D /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CA305211F3B2B0022146D /* Token.swift */; };
+		845CA308211F63500022146D /* CharacterTableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CA307211F63500022146D /* CharacterTableModel.swift */; };
+		845CA30A211F67860022146D /* Responce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CA309211F67860022146D /* Responce.swift */; };
+		845CA30C211F8C320022146D /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CA30B211F8C320022146D /* WelcomeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		845CA2E4211F107F0022146D /* Authorization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Authorization.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		845CA2E7211F107F0022146D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		845CA2E9211F107F0022146D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		845CA2EC211F107F0022146D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		845CA2EE211F108C0022146D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		845CA2F1211F108C0022146D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		845CA2F3211F108C0022146D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845CA2F9211F175C0022146D /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		845CA2FB211F17670022146D /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		845CA2FD211F17930022146D /* CharacterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableViewController.swift; sourceTree = "<group>"; };
+		845CA2FF211F1E210022146D /* ServerDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerDefaults.swift; sourceTree = "<group>"; };
+		845CA301211F2BE90022146D /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		845CA303211F336B0022146D /* SignUPResonce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUPResonce.swift; sourceTree = "<group>"; };
+		845CA305211F3B2B0022146D /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		845CA307211F63500022146D /* CharacterTableModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableModel.swift; sourceTree = "<group>"; };
+		845CA309211F67860022146D /* Responce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Responce.swift; sourceTree = "<group>"; };
+		845CA30B211F8C320022146D /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +72,47 @@
 		845CA2E6211F107F0022146D /* Authorization */ = {
 			isa = PBXGroup;
 			children = (
-				845CA2E7211F107F0022146D /* AppDelegate.swift */,
-				845CA2E9211F107F0022146D /* ViewController.swift */,
-				845CA2EB211F107F0022146D /* Main.storyboard */,
-				845CA2EE211F108C0022146D /* Assets.xcassets */,
-				845CA2F0211F108C0022146D /* LaunchScreen.storyboard */,
+				845CA30B211F8C320022146D /* WelcomeVC.swift */,
+				845CA30E211F8F510022146D /* Character Screen */,
+				845CA2F9211F175C0022146D /* LogInViewController.swift */,
+				845CA2FB211F17670022146D /* RegisterViewController.swift */,
+				845CA30D211F8F1D0022146D /* Shared */,
+				845CA30F211F8F6E0022146D /* Other */,
 				845CA2F3211F108C0022146D /* Info.plist */,
 			);
 			path = Authorization;
+			sourceTree = "<group>";
+		};
+		845CA30D211F8F1D0022146D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				845CA301211F2BE90022146D /* Alert.swift */,
+				845CA305211F3B2B0022146D /* Token.swift */,
+				845CA2FF211F1E210022146D /* ServerDefaults.swift */,
+				845CA303211F336B0022146D /* SignUPResonce.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		845CA30E211F8F510022146D /* Character Screen */ = {
+			isa = PBXGroup;
+			children = (
+				845CA2FD211F17930022146D /* CharacterTableViewController.swift */,
+				845CA307211F63500022146D /* CharacterTableModel.swift */,
+				845CA309211F67860022146D /* Responce.swift */,
+			);
+			path = "Character Screen";
+			sourceTree = "<group>";
+		};
+		845CA30F211F8F6E0022146D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				845CA2E7211F107F0022146D /* AppDelegate.swift */,
+				845CA2EB211F107F0022146D /* Main.storyboard */,
+				845CA2EE211F108C0022146D /* Assets.xcassets */,
+				845CA2F0211F108C0022146D /* LaunchScreen.storyboard */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +186,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				845CA2EA211F107F0022146D /* ViewController.swift in Sources */,
+				845CA30A211F67860022146D /* Responce.swift in Sources */,
+				845CA30C211F8C320022146D /* WelcomeVC.swift in Sources */,
+				845CA302211F2BE90022146D /* Alert.swift in Sources */,
+				845CA304211F336B0022146D /* SignUPResonce.swift in Sources */,
+				845CA2FC211F17670022146D /* RegisterViewController.swift in Sources */,
+				845CA2FE211F17930022146D /* CharacterTableViewController.swift in Sources */,
+				845CA300211F1E210022146D /* ServerDefaults.swift in Sources */,
+				845CA2FA211F175C0022146D /* LogInViewController.swift in Sources */,
 				845CA2E8211F107F0022146D /* AppDelegate.swift in Sources */,
+				845CA306211F3B2B0022146D /* Token.swift in Sources */,
+				845CA308211F63500022146D /* CharacterTableModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
